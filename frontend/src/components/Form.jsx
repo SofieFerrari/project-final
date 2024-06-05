@@ -1,6 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import { Button } from "./Button";
+import { Link } from "react-router-dom";
 
 export const Form = ({ isLogin, onSubmit }) => {
   const [formData, setFormData] = useState({
@@ -23,58 +24,79 @@ export const Form = ({ isLogin, onSubmit }) => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="mx-auto max-w-md space-y-6 rounded-lg bg-white px-4 py-8 shadow-md"
-    >
-      <div className="flex flex-col">
-        <label className="text-gray-700 mb-2 font-bold">
+    <div className="m-6 flex items-center justify-center">
+      <form onSubmit={handleSubmit} className="w-80 max-w-sm">
+        <div className="mb-6">
           <input
             type="text"
+            id="username"
             name="username"
+            placeholder="USERNAME"
             value={formData.username}
             onChange={handleChange}
-            className="mt-1 p-2 block w-full border-2 border-gray-300 rounded-md focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+            className="focus:border-blue-500 focus:ring-blue-500 w-full rounded-sm border border-light-blue bg-light-gray p-3 font-montserrat font-bold placeholder-blue focus:ring focus:ring-opacity-50"
             required
           />
-        </label>
-      </div>
-      {!isLogin && (
-        <div className="flex flex-col">
-          <label className="text-gray-700 mb-2 font-bold">
-            <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              className="mt-1 p-2 block w-full border-2 border-gray-300 rounded-md focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
-              required
-            />
-          </label>
         </div>
-      )}
-      <div className="flex flex-col">
-        <label className="text-gray-700 mb-2 font-bold">
+        <div className="mb-6">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="EMAIL ADDRESS"
+            value={formData.email}
+            onChange={handleChange}
+            className="focus:border-blue-500 focus:ring-blue-500 w-full rounded-sm border border-light-blue bg-light-gray p-3 font-montserrat font-bold placeholder-blue focus:ring focus:ring-opacity-50"
+            required
+          />
+        </div>
+        <div>
           <input
             type="password"
+            id="password"
             name="password"
+            placeholder="PASSWORD"
             value={formData.password}
             onChange={handleChange}
-            className="mt-1 p-2 block w-full border-2 border-gray-300 rounded-md focus:border-blue-500 focus:ring focus:ring-blue-500 focus:ring-opacity-50"
+            className="focus:border-blue-500 focus:ring-blue-500 w-full rounded-sm border border-light-blue bg-light-gray p-3 font-montserrat font-bold placeholder-blue focus:ring focus:ring-opacity-50"
             required
           />
-        </label>
-      </div>
-      <Button
-        text={isLogin ? "Log in" : "Sign up"}
-        style="blue"
-        type="submit"
-        onClick={(event) => {
-          event.preventDefault();
-          handleSubmit(event);
-        }}
-      />
-    </form>
+        </div>
+        <div className="flex justify-center p-10">
+          <Button
+            text={isLogin ? "Log in" : "Sign up"}
+            style="submit"
+            onClick={(event) => {
+              event.preventDefault();
+              handleSubmit(event);
+            }}
+          />
+        </div>
+        <div className="mt-4 text-center">
+          {isLogin ? (
+            <div className="font-montserrat font-bold text-blue">
+              <p className="text-sm mb-2">Don’t have an account?</p>
+              <Link
+                to="/signup"
+                className="block text-base underline"
+              >
+                Become a member!
+              </Link>
+            </div>
+          ) : (
+            <div className="font-montserrat font-bold text-blue">
+              <p className="text-sm mb-2">Already have an account?</p>
+              <Link
+                to="/login"
+                className="block text-base underline"
+              >
+                Log in here!
+              </Link>
+            </div>
+          )}
+        </div>
+      </form>
+    </div>
   );
 };
 
