@@ -1,0 +1,306 @@
+[{
+  "templateName": "Dreamy Skies",
+  "description": "A dynamic web template perfect for creatives who want to instill a sense of calm and feeling that the sky is the limit. Perfect for bloggers and influencers to showcase their content.",
+  "price": 29.99,
+  "tags": "Dreamy, Creative, Color",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588279/mockups/ko7g7uscsgs3orgu76ok.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Sunny Adventures",
+  "description": "A bright and cheerful web template designed for young travelers and adventurers. Ideal for travel bloggers and photographers to share their journeys.",
+  "price": 24.99,
+  "tags": "Travel, Adventure, Bright",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588404/mockups/pp6ebzcgzfe5pvasabkd.webp",
+  "category": "Travel and Adventure"
+},
+{
+  "templateName": "Wildlife Explorer",
+  "description": "An adventurous web template for wildlife enthusiasts and nature lovers. Ideal for sharing wildlife photography and outdoor experiences.",
+  "price": 26.99,
+  "tags": "Wildlife, Adventure, Nature",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588531/mockups/uzfkopobeznvb5v0evkb.webp",
+  "category": "Travel and Adventure"
+},
+{
+  "templateName": "Ocean Breeze",
+  "description": "An elegant and refreshing web template inspired by the ocean. Perfect for beach lovers, surfers, and marine enthusiasts.",
+  "price": 22.99,
+  "tags": "Ocean, Elegant, Refreshing",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588505/mockups/zr2efjdlkck4h9fwi8jy.webp",
+  "category": "Travel and Adventure"
+},
+{
+  "templateName": "Cosmic Dreams",
+  "description": "A cosmic and dreamy web template for stargazers and dreamers. Ideal for sharing astronomy facts, space photography, and celestial musings.",
+  "price": 21.99,
+  "tags": "Cosmic, Dreamy, Astronomy",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588603/mockups/ojy6sfgejgfktjwlipwk.webp",
+  "category": "Health and Wellness"
+},
+{
+  "templateName": "Magical Forest",
+  "description": "A mystical and enchanting web template inspired by the wonders of the forest. Perfect for nature enthusiasts and fantasy lovers.",
+  "price": 18.99,
+  "tags": "Forest, Magical, Enchanting",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588555/mockups/sodjwdilbiezpjdjaeul.webp",
+  "category": "Travel and Adventure"
+},
+{
+  "templateName": "Artistic Vision",
+  "description": "An artistic and expressive web template for creative minds. Perfect for showcasing artwork, photography, and visual storytelling.",
+  "price": 28.99,
+  "tags": "Artistic, Expressive, Creative",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588629/mockups/zjiuc3hkq38icyp8vqtm.webp",
+  "category": "Artistic"
+},
+{
+  "templateName": "Tech Innovator",
+  "description": "A cutting-edge and futuristic web template for tech enthusiasts and innovators. Ideal for sharing tech news, reviews, and insights.",
+  "price": 23.99,
+  "tags": "Tech, Futuristic, Innovation",
+  "likes": null,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588659/mockups/xoow4l0ubzpkpsgddls8.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Portfolio",
+  "description": "A responsive and formal web template for professionals who want to showcase their work. Clean, neutral colors and layout.",
+  "price": 35.99,
+  "tags": "Professional, Clean, Neutral",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588736/mockups/t9mvqb8xj7oqfjboq3zo.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Art Gallery",
+  "description": "An elegant and sophisticated web template for artists and art enthusiasts. Showcase your artwork with style and grace.",
+  "price": 32.99,
+  "tags": "Artistic, Sophisticated, Elegant",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588759/mockups/opeyrwli6txqyrhoaczg.webp",
+  "category": "Artistic"
+},
+{
+  "templateName": "Urban Jungle",
+  "description": "A trendy and modern web template for urban enthusiasts and lifestyle bloggers. Ideal for showcasing city life, fashion, and urban culture.",
+  "price": 29.99,
+  "tags": "Urban, Lifestyle, Modern",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588475/mockups/n1byryfsbo8dg5ueugg2.webp",
+  "category": "Travel and Adventure"
+},
+{
+  "templateName": "Health and Wellness",
+  "description": "A holistic web template for health coaches and wellness advocates. Inspire others to lead healthier lives with informative content.",
+  "price": 34.99,
+  "tags": "Health, Wellness, Holistic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588806/mockups/ta9gbwyxaaqeekzcroya.webp",
+  "category": "Health and Wellness"
+},
+{
+  "templateName": "Fashionista",
+  "description": "A trendy and chic web template for fashion bloggers and style influencers. Showcase the latest trends and fashion inspirations.",
+  "price": 33.99,
+  "tags": "Fashion, Trendy, Chic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588852/mockups/i2sz7brvu0vne9nvvpnc.webp",
+  "category": "Fashion and Style"
+},
+{
+  "templateName": "Chill Beats",
+  "description": "A laid-back and stylish web template for music lovers and artists. Perfect for sharing playlists, albums, and musical creations.",
+  "price": 19.99,
+  "tags": "Music, Relaxed, Stylish",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588445/mockups/wvjaxgzinwpyexbk5yya.webp",
+  "category": "Beauty"
+},
+{
+  "templateName": "Gaming Haven",
+  "description": "An immersive web template for gamers and gaming enthusiasts. Create a community around your favorite games and gaming experiences.",
+  "price": 30.99,
+  "tags": "Gaming, Immersive, Community",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588879/mockups/kjgkirnejss5cibzdjtf.webp",
+  "category": "Tech"
+},
+{
+  "templateName": "Tech Hub",
+  "description": "A cutting-edge web template for tech enthusiasts and innovators. Stay up-to-date with the latest tech news and developments.",
+  "price": 36.99,
+  "tags": "Tech, Cutting-edge, Innovative",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588911/mockups/qqxyy2cftoghdle6n00r.webp",
+  "category": "Tech"
+},
+{
+  "templateName": "Pet Paradise",
+  "description": "A heartwarming web template for pet lovers and animal enthusiasts. Celebrate the love and companionship of your furry friends.",
+  "price": 28.99,
+  "tags": "Pets, Heartwarming, Companionship",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588929/mockups/pzszcjtpoyjfpxub9v9n.webp",
+  "category": "Health and Wellness"
+},
+{
+  "templateName": "Red",
+  "description": "A bold and energetic web template inspired by the color red. Make a statement with vibrant hues and dynamic design elements.",
+  "price": 18.99,
+  "tags": "Red, Bold, Energetic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589016/mockups/mpb2sxq0n57mbkdqlitz.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Blue",
+  "description": "A calming and serene web template inspired by the color blue. Create a tranquil online space with soothing hues and clean design.",
+  "price": 18.99,
+  "tags": "Blue, Serene, Calm",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588974/mockups/tlsk4tsiin3uesyr094k.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Fitness Fanatic",
+  "description": "A dynamic web template for fitness enthusiasts and gym buffs. Share workout routines, health tips, and fitness motivation.",
+  "price": 32.99,
+  "tags": "Fitness, Dynamic, Motivational",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588956/mockups/mv7tzdlx7gjj6ccdvjsx.webp",
+  "category": "Health and Wellness"
+},
+{
+  "templateName": "Green",
+  "description": "A refreshing and vibrant web template inspired by the color green. Bring a sense of nature and growth to your online presence.",
+  "price": 18.99,
+  "tags": "Green, Refreshing, Vibrant",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589044/mockups/gzamusucvifopbhyhnea.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Yellow",
+  "description": "A cheerful and sunny web template inspired by the color yellow. Infuse positivity and brightness into your online content.",
+  "price": 18.99,
+  "tags": "Yellow, Cheerful, Sunny",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589064/mockups/oekegdw7pxlhaxwoyw6l.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Orange",
+  "description": "A vibrant and energetic web template inspired by the color orange. Ignite excitement and enthusiasm with bold hues and modern design.",
+  "price": 18.99,
+  "tags": "Orange, Vibrant, Energetic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589107/mockups/p3txky6hpbpuugbawf6s.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Purple",
+  "description": "A royal and majestic web template inspired by the color purple. Add an air of elegance and sophistication to your online presence.",
+  "price": 18.99,
+  "tags": "Purple, Royal, Majestic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589086/mockups/ogurwv2tcafrnumt06r4.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Pink",
+  "description": "A playful and romantic web template inspired by the color pink. Create a whimsical online space with soft hues and charming design.",
+  "price": 18.99,
+  "tags": "Pink, Playful, Romantic",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589132/mockups/diayjvjksyf5noftnywo.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Gray",
+  "description": "A sleek and sophisticated web template inspired by the color gray. Achieve a modern and minimalist look with neutral tones and clean design.",
+  "price": 18.99,
+  "tags": "Gray, Sleek, Sophisticated",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589166/mockups/ocjku9p2z7e7djwfetot.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Black",
+  "description": "A sleek and elegant web template inspired by the color black. Create a bold and timeless online presence with dark hues and minimalist design.",
+  "price": 18.99,
+  "tags": "Black, Sleek, Elegant",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589213/mockups/wionje77ltl6cjlqd3ev.webp",
+  "category": "Color"
+},
+{
+  "templateName": "Economic Elegance",
+  "description": "A sleek and sophisticated web template with a focus on economic data visualization. Present financial information with elegance and clarity.",
+  "price": 29.99,
+  "tags": "Economics, Data Visualization, Sophisticated",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589236/mockups/bch4dqhp2cp5uvbscajt.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Financial Focus",
+  "description": "A clean and modern web template designed for highlighting economic trends and analysis. Keep your audience engaged with focused and professional visuals.",
+  "price": 29.99,
+  "tags": "Economics, Trends, Analysis",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589263/mockups/ixheklufpphbkdepwudl.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Wealthy Web",
+  "description": "A rich and vibrant web template tailored for showcasing economic prosperity and financial growth. Make a statement with luxurious and opulent design elements.",
+  "price": 29.99,
+  "tags": "Economics, Prosperity, Growth",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589290/mockups/upjlenilirfukk6k3nrs.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Money Matters",
+  "description": "A polished and refined web template perfect for presenting economic insights and financial reports. Impress your audience with a professional and authoritative appearance.",
+  "price": 29.99,
+  "tags": "Economics, Insights, Reports",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589316/mockups/lr3h435quxn0ytmcf7ml.webp",
+  "category": "Beauty"
+},
+{
+  "templateName": "Economic Excellence",
+  "description": "An exquisite and elegant web template crafted for showcasing economic excellence and financial expertise. Set the standard with a sophisticated and refined appearance.",
+  "price": 29.99,
+  "tags": "Economics, Excellence, Expertise",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717589344/mockups/xjbn6utprwi4yvstmucs.webp",
+  "category": "Business"
+},
+{
+  "templateName": "Culinary Delight",
+  "description": "A mouth-watering web template for foodies and culinary experts. Display your recipes and culinary creations in style.",
+  "price": 29.99,
+  "tags": "Culinary, Delicious, Appetizing",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588785/mockups/de5w0rlxa3jawdrclcxa.webp",
+  "category": "Restaurants and Food"
+},
+{
+  "templateName": "Travelogue",
+  "description": "An adventurous web template for travel enthusiasts and globetrotters. Share your travel experiences and wanderlust with the world.",
+  "price": 31.99,
+  "tags": "Travel, Adventure, Wanderlust",
+  "likes": 0,
+  "image": "https://res.cloudinary.com/ddpsnaef5/image/upload/v1717588831/mockups/u2xtb6q0aedxthqn2d88.webp",
+  "category": "Travel and Adventure"
+}]
