@@ -9,7 +9,7 @@ export const Button = ({ text, style, onClick }) => {
   return (
     <button
       onClick={onClick}
-      className={`${style === "white" ? whiteStyle : blueStyle} hover:bg-button-hover min-h-12 min-w-48 rounded px-4 font-montserrat text-xl font-bold`}
+      className={`${style === "white" ? whiteStyle : blueStyle} hover:bg-button-hover min-h-12 min-w-48 rounded px-4 font-montserrat text-base font-bold`}
     >
       {text}
     </button>
