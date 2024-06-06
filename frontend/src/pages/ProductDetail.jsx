@@ -9,6 +9,7 @@ export const ProductDetail = () => {
         name="Health and Wellness"
         price={34.99}
         numOfLikes={3}
+        category="Health and Wellness"
         description="A mouth-watering web template for foodies and culinary experts. Display your recipes and culinary creations in style."
       />
     </div>

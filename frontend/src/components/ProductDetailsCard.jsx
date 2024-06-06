@@ -1,5 +1,6 @@
-import favorite from "../assets/favorite-icon.svg";
 import PropTypes from "prop-types";
+
+import favorite from "../assets/favorite-icon.svg";
 import { Button } from "./Button";
 
 export const ProductDetailsCard = ({
@@ -9,6 +10,7 @@ export const ProductDetailsCard = ({
   price,
   name,
   description,
+  category,
 }) => {
   return (
     <div className="mx-auto flex w-4/5 min-w-[300px] flex-col gap-6 font-montserrat lg:flex-row lg:place-content-center lg:gap-10">
@@ -27,17 +29,18 @@ export const ProductDetailsCard = ({
         </button>
       </div>
       <div className="flex w-full flex-col gap-3 lg:w-96 lg:flex-none lg:justify-between">
-        <span className="mb-2 flex flex-row">
+        <span className="flex flex-row">
           {tags.split(", ").map((tag) => (
             <button key={tag} className="mr-2 text-sm text-blue">
               #tag
             </button>
           ))}
         </span>
+        <p className="mb-2 text-sm font-bold text-blue">{category}</p>
         <h3 className="font-montserrat font-bold">{name}</h3>
         <p className="text-sm">€{price}</p>
         <p>{description}</p>
-        <div className="mt-10 w-fit self-center lg:self-start">
+        <div className="mt-6 w-fit self-center lg:self-start">
           <Button text="ADD TO CART" />
         </div>
       </div>

@@ -8,6 +8,7 @@ export const ProductList = () => {
         tags="Health, Wellness, Holistic"
         name="Health and Wellness"
         price={34.99}
+        category="Health and Wellness"
       />
       <ProductCard
         templateImg="https://res.cloudinary.com/ddpsnaef5/image/upload/v1717358234/cld-sample-5.jpg"
