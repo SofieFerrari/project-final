@@ -4,7 +4,7 @@ import yellow from "../assets/yellow.webp";
 
 export const ProductCardList = ({ image, name, price }) => {
   return (
-    <div className="mx-20 flex h-[180px] w-[500px] flex-col justify-center border p-3">
+    <div className="mx-20 flex h-[180px] w-[500px] flex-col justify-center p-3">
       <div className="flex flex-row mx-2">
         <img className="h-[130px] self-center" src={yellow} alt="image of our template" />
         <div className="flex w-60 flex-col gap-3">
