@@ -1,8 +1,9 @@
-import cart from "../assets/cart.svg";
-import user from "../assets/human-icon.svg";
-import { useState } from "react";
 import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { useState } from "react";
+
+import cart from "../assets/cart.svg";
+import user from "../assets/human-icon.svg";
 
 const navigation = [
   { name: "Home", href: "#" },
@@ -15,7 +16,7 @@ export const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-blue text-white">
+    <header className="w-full bg-blue text-white">
       <nav
         className="flex items-center justify-between p-6 font-poppins lg:px-8"
         aria-label="Global"
