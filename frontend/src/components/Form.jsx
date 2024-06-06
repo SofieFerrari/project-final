@@ -38,7 +38,9 @@ export const Form = ({ isLogin, onSubmit }) => {
             required
           />
         </div>
-        <div className="mb-6 lg:mb-8">
+        
+        {!isLogin &&
+          < div className="mb-6 lg:mb-8">
           <input
             type="email"
             id="email"
@@ -49,7 +51,8 @@ export const Form = ({ isLogin, onSubmit }) => {
             className="focus:border-blue-500 focus:ring-blue-500 w-full rounded-sm border border-light-blue bg-light-gray p-3 font-montserrat font-bold placeholder-blue focus:ring focus:ring-opacity-50 lg:p-4"
             required
           />
-        </div>
+        </div>}
+
         <div>
           <input
             type="password"
