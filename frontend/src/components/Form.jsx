@@ -38,7 +38,7 @@ export const Form = ({ isLogin, onSubmit }) => {
             required
           />
         </div>
-        
+    
         {!isLogin &&
           < div className="mb-6 lg:mb-8">
           <input
