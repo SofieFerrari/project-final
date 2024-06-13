@@ -1,10 +1,9 @@
-import PropTypes from "prop-types";
 import Lottie from "lottie-react";
 import loading from "../assets/animation/lottie-loading.json";
 
-export const Loading = ({ isVisible }) => {
+export const Loading = () => {
   return (
-    <div className={`flex justify-center ${isVisible ? "" : "hidden"}`}>
+    <div className="flex justify-center">
       <Lottie
         animationData={loading}
         loop={true}
@@ -12,8 +11,4 @@ export const Loading = ({ isVisible }) => {
       />
     </div>
   );
-};
-
-Loading.propTypes = {
-  isVisible: PropTypes.bool.isRequired,
 };

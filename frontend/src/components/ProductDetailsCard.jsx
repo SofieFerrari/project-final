@@ -6,7 +6,6 @@ import { useUserStore } from "../stores/useUserStore";
 import { useState } from "react";
 import { SideDrawer } from "./SideDrawer";
 import { Loading } from "./Loading";
-import { Error } from "./Error";
 
 export const ProductDetailsCard = ({
   numOfLikes,
@@ -18,11 +17,10 @@ export const ProductDetailsCard = ({
   category,
   id,
 }) => {
-  const { accessToken, handleCart, loading, error } = useUserStore((state) => ({
+  const { accessToken, handleCart, loading } = useUserStore((state) => ({
     accessToken: state.accessToken,
     handleCart: state.handleCart,
     loading: state.loading,
-    error: state.error,
   }));
   const [openDrawer, setOpenDrawer] = useState(false);
   const addToCart = async () => {
@@ -34,7 +32,7 @@ export const ProductDetailsCard = ({
       try {
         await handleCart(id);
       } catch (error) {
-        <Error/>
+        console.error("Error adding cart", error);
       } finally {
         loading(false);
       }

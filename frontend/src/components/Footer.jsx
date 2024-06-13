@@ -8,15 +8,13 @@ import Lottie from "lottie-react";
 import toTop from "../assets/animation/lottie-to-top.json";
 
 export const Footer = () => {
-  const { categories, loading } = useProductStore((state) => ({
-    categories: state.categories,
-    loading: state.loading,
-  }));
-
   const [shopIsOpen, setShopIsOpen] = useState(false);
   const [accountIsOpen, setAccountIsOpen] = useState(false);
   const [customerIsOpen, setCustomerIsOpen] = useState(false);
   const [aboutIsOpen, setAboutIsOpen] = useState(false);
+  const [loadingCategories, setLoadingCategories] = useState(false);
+
+  const categories = useProductStore((state) => state.categories);
 
   const toggelShop = () => {
     setShopIsOpen(!shopIsOpen);
@@ -45,12 +43,12 @@ export const Footer = () => {
           onClick={toggelShop}
         >
           <h4 className="mb-1 mt-2 text-xl font-bold tracking-wider">SHOP</h4>
-          <svg src={dropdown} alt="dropdown icon" className="h-2 self-center" />
+          <img src={dropdown} alt="dropdown icon" className="h-2 self-center" />
         </button>
         {shopIsOpen && (
           <ul className="ml-6 space-y-2 py-3 text-sm leading-7 tracking-wide">
-            {loading ? (
-              <Loading isVisible={loading} />
+            {loadingCategories ? (
+              <Loading />
             ) : (
               categories.map((category, index) => (
                 <li key={index}>
@@ -74,7 +72,7 @@ export const Footer = () => {
           <h4 className="mb-1 mt-2 text-xl font-bold tracking-wider">
             MY ACCOUNT
           </h4>
-          <svg src={dropdown} alt="dropdown icon" className="h-2 self-center" />
+          <img src={dropdown} alt="dropdown icon" className="h-2 self-center" />
         </button>
         {accountIsOpen && (
           <ul className="ml-6 space-y-2 py-3 text-sm leading-7 tracking-wide">
@@ -94,7 +92,7 @@ export const Footer = () => {
           <h4 className="mb-1 mt-2 text-xl font-bold tracking-wider">
             CUSTOMER SERVICE
           </h4>
-          <svg src={dropdown} alt="dropdown icon" className="h-2 self-center" />
+          <img src={dropdown} alt="dropdown icon" className="h-2 self-center" />
         </button>
         {customerIsOpen && (
           <p className="ml-6 w-[280px] py-3 leading-6 tracking-wide">
@@ -111,7 +109,7 @@ export const Footer = () => {
           <h4 className="mb-1 mt-2 text-xl font-bold tracking-wider">
             ABOUT US
           </h4>
-          <svg src={dropdown} alt="dropdown icon" className="h-2 self-center" />
+          <img src={dropdown} alt="dropdown icon" className="h-2 self-center" />
         </button>
         {aboutIsOpen && (
           <p className="ml-6 w-[280px] py-3 leading-6 tracking-wide">

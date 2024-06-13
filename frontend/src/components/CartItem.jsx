@@ -20,7 +20,7 @@ export const CartItem = ({ id, image, name, price }) => {
   return (
     <div className="flex w-auto max-w-[500px] flex-col justify-center mx-6 shadow-lg mb-6">
       {loading || removeLoading ? (
-        <Loading isVisible={loading}/>
+        <Loading/>
       ) : (
       <div className="m-3 flex flex-row">
         <img
